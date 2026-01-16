@@ -6,11 +6,10 @@
   "background_color": "#ffffff",
   "theme_color": "#2575fc",
   "icons": [
-  {
-    "src": "pin.jpg",
-    "sizes": "192x192",
-    "type": "image/jpeg"
-  }
-]
-
+    {
+      "src": "pin.jpg",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
 }
