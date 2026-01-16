@@ -2,8 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+
+  <!-- REQUIRED FOR APP MODE -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="manifest" href="manifest.json">
+
   <title>Login Page</title>
+
   <style>
     body {
       font-family: 'Poppins', sans-serif;
@@ -54,6 +62,7 @@
     }
   </style>
 </head>
+
 <body>
   <div class="login-box">
     <h2>Login</h2>
@@ -67,8 +76,7 @@
   <script>
     function goNextPage(event) {
       event.preventDefault();
-      // you can check username/password here if needed
-      window.location.href = "congrats.html"; // go to next page
+      window.location.href = "congrats.html";
     }
   </script>
 </body>
